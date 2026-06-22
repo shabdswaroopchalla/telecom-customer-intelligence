@@ -1,72 +1,129 @@
-# Business Requirements
+# Business Requirements Document
 
-## Problem Statement
+## 1. Project Overview
 
-Telecommunication companies face significant revenue loss due to customer churn. Acquiring a new customer is substantially more expensive than retaining an existing one. Therefore, identifying customers who are likely to leave the service and understanding the factors driving churn are critical business objectives.
+Telecom companies face significant revenue loss due to customer churn. Acquiring a new customer is often more expensive than retaining an existing one. The objective of this project is to build an intelligent system that identifies customers at high risk of churn and provides actionable insights for retention strategies.
 
-## Business Objectives
+---
 
-1. Predict whether a customer is likely to churn based on demographic, account, and service-related information.
+## 2. Business Problem
 
-2. Identify the key factors influencing customer churn to support data-driven retention strategies.
+The telecom company is experiencing customer attrition, which negatively impacts revenue and market share.
 
-3. Enable customer service and marketing teams to proactively engage high-risk customers before they leave.
+Current challenges:
 
-4. Reduce customer acquisition costs by improving retention rates.
+* Difficulty identifying customers likely to leave.
+* Lack of data-driven retention strategies.
+* High customer acquisition costs.
+* Inability to prioritize retention efforts effectively.
 
-5. Improve customer satisfaction and long-term customer lifetime value.
+---
 
-## Success Criteria
+## 3. Business Objectives
 
-### Business Success Criteria
+The project aims to:
 
-* Reduce overall customer churn rate.
-* Improve customer retention through targeted interventions.
-* Increase customer lifetime value.
-* Support decision-making with actionable customer insights.
+* Predict whether a customer is likely to churn.
+* Identify key factors contributing to churn.
+* Enable proactive customer retention campaigns.
+* Reduce customer attrition rates.
+* Improve customer lifetime value (CLV).
 
-### Machine Learning Success Criteria
+---
 
-* Develop a classification model capable of predicting customer churn.
-* Achieve strong predictive performance using metrics such as:
+## 4. Success Criteria
 
-  * Accuracy
-  * Precision
-  * Recall
-  * F1-Score
-  * ROC-AUC
+The project will be considered successful if:
 
-### Project Success Criteria
+* Churn prediction model achieves acceptable business performance.
+* High-risk customers can be identified before churn occurs.
+* Business teams receive actionable insights.
+* Retention campaigns can be targeted more effectively.
 
-* Build an end-to-end data science solution.
-* Perform data cleaning, exploratory data analysis, feature engineering, model development, and evaluation.
-* Deploy the solution using FastAPI and Streamlit.
-* Provide an interactive dashboard for business users.
+---
 
-## Stakeholders
+## 5. Stakeholders
 
-* Business Management
+### Primary Stakeholders
+
+* Telecom Management
 * Customer Retention Team
 * Marketing Team
 * Customer Support Team
-* Data Science Team
 
-## Expected Deliverables
+### Technical Stakeholders
 
-1. Exploratory Data Analysis Report
-2. Feature Engineering Pipeline
-3. Customer Churn Prediction Model
-4. FastAPI Inference Service
-5. Streamlit Dashboard
-6. Project Documentation and GitHub Repository
+* Data Scientists
+* Data Analysts
+* ML Engineers
 
-## Key Business Questions
+---
 
-1. Which customers are most likely to churn?
-2. What customer characteristics contribute most to churn?
-3. Which services have the highest churn risk?
-4. How does contract type influence customer retention?
-5. What retention strategies can be recommended for high-risk customers?
+## 6. Business Questions
+
+The solution should answer:
+
+1. Which customers are likely to churn?
+2. What factors contribute most to churn?
+3. Which customer segments have the highest churn risk?
+4. How can retention efforts be prioritized?
+5. What actions can reduce customer churn?
+
+---
+
+## 7. Expected Benefits
+
+### Financial Benefits
+
+* Reduced revenue loss.
+* Lower customer acquisition costs.
+* Improved profitability.
+
+### Operational Benefits
+
+* Better targeting of retention campaigns.
+* Improved customer service decisions.
+* Data-driven business strategies.
+
+---
+
+## 8. Project Scope
+
+### Included
+
+* Customer data analysis.
+* Churn prediction model.
+* Business dashboard.
+* Customer risk scoring.
+
+### Excluded
+
+* Real-time streaming predictions.
+* Automated marketing campaign execution.
+* Production-scale MLOps deployment.
+
+---
+
+## 9. Key Performance Indicators (KPIs)
+
+* Churn Rate
+* Customer Retention Rate
+* Precision
+* Recall
+* F1 Score
+* ROC-AUC Score
+
+---
+
+## 10. Expected Deliverables
+
+* Exploratory Data Analysis Report
+* Machine Learning Model
+* FastAPI Prediction Service
+* Streamlit Dashboard
+* Business Insights Report
+* Project Documentation
+
 
 ## Business Impact
 
